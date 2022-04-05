@@ -10,6 +10,10 @@
 * 	Template Style 
 *
 * ======================================================= */
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
