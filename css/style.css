@@ -347,6 +347,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0 auto;
   }
 }
+/**
 #fh5co-header .display-tc .btn.btn-learn,
 .fh5co-cover .display-tc .btn.btn-learn {
   background: #fee856;
@@ -359,6 +360,18 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(254, 232, 86, 0.9) !important;
   color: #000 !important;
 }
+**/
+
+.btn-learn{
+  background: #fee856;
+  border: none !important;
+  color: #000 !important;
+}
+
+.btn-learn:hover{
+  background: rgba(254, 232, 86, 0.9) !important;
+}
+
 #fh5co-header .display-tc .btn:hover, #fh5co-header .display-tc .btn:focus,
 .fh5co-cover .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:focus {
