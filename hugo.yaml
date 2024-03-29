@@ -1,5 +1,5 @@
 baseURL: ''
-title: TailBliss
+title: William Mueller
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -46,46 +46,48 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
-  authorimage: ../assets/images/global/author.webp
+  author: William Mueller
+  authorimage: ../assets/images/pages/hoohacks_logo.png
   og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
+  moto: "Passionate Software Engineer"
+  description: "I'm a Fourth Year at UVA and an incoming Solutions Engineering Analyst at Deloitte. Check out my site!"
   disable_theme_toggle: false
-  disable_stay_uptodate: false
+  disable_stay_uptodate: true
 
   p1:
-    heading: "Our mission"
-    image: "images/pages/our-mission.png"
+    heading: "About Me"
+    image: "images/pages/header.jpg"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-      - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
-      - text: "Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra."
+      - text: "I'm a passionate student and software engineer involved in leadership and computer science at the University of Virginia."
+      - text: "Most recently, I've been involved in running HooHacks, UVA's premier hackathon, as Co-President."
+      - text: "After my graduation this spring, I will begin working for Deloitte as a Solutions Engineering Analyst."
   p2:
-    heading: "Just in time for Hacktoberfest with JIT Tailwind."
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "My Leadership"
+    image: "images/pages/hoohacks_logo.png"
     content:
-      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
-  p3:
-    heading: "Backed by world-renowned investors"
-    content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
+      - text: "Since getting involved in Model UN and organizing hackathons in my sophomore year of high school, I've learned a lot about leadership and public speaking. After serving as Director of my high school's hackathon in my senior year, where 150 high-school and middle-school students attended, I knew I wanted to continue planning hackathons in college."
+      - text: "So, I kept going. I joined HooHacks during my first year at UVA, and eventually became an executive board member, and finally Co-President. On March 23-24, 2024, I ran the 11th annual HooHacks as one of its Co-Presidents. During the event, we had 744 participants attend and 170 projects submitted, a record level of attendance and participation for our event."
     links:
-      - text: Meet our investors and advisors
-        url: "#"
+      - text: Read an article published by UVA about HooHacks 2024
+        url: "https://engineering.virginia.edu/news-events/news/who-won-hoohacks-2024-these-2-uva-teams-are-still-glowing"
+  p3:
+    heading: "My Work and Projects"
+    content:
+      - text: "Outside of my leadership experience, I have improved my knowledge of computer science through internships, research, and personal projects."
+    links:
+      - text: Check out the whole portfolio
+        url: "/portfolio/"
     logos:
       - identifier: a
-        image: "images/global/sample-logo.svg"
-        alt: "a"
+        image: "images/pages/deloitte_logo.png"
       - identifier: b
+        image: "images/pages/hoohacks_logo_long.png"
       - identifier: c
+        image: "images/pages/pariveda_logo.png"
+        alt: "Pariveda"
       - identifier: d
-      - identifier: e
-      - identifier: f
-  p4:
-    heading: "From the blog"
-    content:
-      - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
+        image: "images/pages/uva_logo.png"
+
   p5:
     heading: "Stay Up to Date"
     content:
@@ -98,85 +100,45 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/nusserstudios'
-    facebook:
+      url: 'https://github.com/wmueller49'
+    linkedin:
       enabled: true
-      url: 'https://facebook.com/nusserstudios'
-    instagram:
+      url: 'https://linkedin.com/in/william-mueller'
+    mail:
       enabled: true
-      url: 'https://instagram.com/nusserstudios'
-    twitter:
-      enabled: true
-      url: '@nusserstudios'
     
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: home
+      name: Home
+      url: /
       weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
-      weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
+    - identifier: portfolio
+      name: Portfolio
+      url: /portfolio/
+      weight: 20
+    - identifier: resume
+      name: Resume
+      url: /resume/William%20Mueller%20Resume.pdf
+      weight: 20      
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-  dropdown:
-    - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
   footer:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
+    - identifier: home
+      name: Home
+      url: /
       weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
+    - identifier: portfolio
+      name: Portfolio
+      url: /portfolio/
+      weight: 20
+    - identifier: resume
+      name: Resume
+      url: /resume/William%20Mueller%20Resume.pdf
+      weight: 20      
     - identifier: contact
       name: Contact
       url: /contact/
